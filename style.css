@@ -1,61 +1,46 @@
+/* General styling */
 body{
-    font-family: Aerial sans-serif;
-    background-color: rgb(157, 157, 153);
-    margin: 20px;
-    
+    font-family:'Courier New', Courier, monospace;
 }
-/*heading style*/
-h1 {
-    color: rgb(1, 1, 1);
-    text-align : center;
-}
-h2 {
-    color: rgb(10, 10, 10);
-    text-align: center;
-}
-/*product Box style*/
-.product-box {
-    border: 2px solid rgb(1, 1, 1);
-    padding: 15px;
-    margin: 0 auto;
-    background-color: white;
-    align-self: center;
-    width:500px;
-    height: 650px;
-    border-radius: 8px;  /*rounded corners*/
-}
-/*product image styling*/
-.product-box img {
-    border-radius: 5px;
-   align-self: center;
-    height: 450px;
-    width: 400px;
-}
-/*product title*/
-.description {
-    font-size: 19px;
-    color: rgb(99, 89, 99);
-    text-align: center;
-    margin-top: 15px;
-}
-/*product price*/
-.price {
-    font-size: 20px;
-    color: rgb(182, 2, 2);
-    text-align: center;
-}
-button {
-    background-color: rgb(15, 107, 212);
+
+
+/* Block example */
+.block-menu a {
+    display: block;
+    background-color: rgb(81, 81, 209);
     color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    display: block;
-    margin: 20px auto 0 auto; /*center button*/
+    padding: 10px;
+    margin: 5px ;
+    text-decoration: none;
 }
-img {
-    display: block;
-    margin: 0 auto; /*center image*/
+/* inline example */
+.inline-menu a {
+    display:inline;
+    background-color: pink;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+/* Inline-Block Example */
+.inline-block-menu a{
+    display:inline-block;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+/* Float Example */
+.float-menu a{
+    float: left;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
 }
