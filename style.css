@@ -1,61 +1,40 @@
 body{
-    font-family: Aerial sans-serif;
-    background-color: rgb(157, 157, 153);
+        font-family:"georgia";
+    }
+.container{
+    border: 2px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    gap: 48px;
+    padding: 40px;
     margin: 20px;
-    
 }
-/*heading style*/
-h1 {
-    color: rgb(1, 1, 1);
-    text-align : center;
-}
-h2 {
-    color: rgb(10, 10, 10);
-    text-align: center;
-}
-/*product Box style*/
-.product-box {
-    border: 2px solid rgb(1, 1, 1);
-    padding: 15px;
-    margin: 0 auto;
+.card{
     background-color: white;
-    align-self: center;
-    width:500px;
-    height: 650px;
-    border-radius: 8px;  /*rounded corners*/
-}
-/*product image styling*/
-.product-box img {
-    border-radius: 5px;
-   align-self: center;
-    height: 450px;
-    width: 400px;
-}
-/*product title*/
-.description {
-    font-size: 19px;
-    color: rgb(99, 89, 99);
+    width: 220px;
     text-align: center;
-    margin-top: 15px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba 0, 0, 0,0.5;
+    border: 3px solid#007bff;
 }
-/*product price*/
-.price {
-    font-size: 20px;
-    color: rgb(182, 2, 2);
-    text-align: center;
-}
-button {
-    background-color: rgb(15, 107, 212);
+.circle{
+    background-color:#007bff;
     color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    display: block;
-    margin: 20px auto 0 auto; /*center button*/
-}
-img {
-    display: block;
-    margin: 0 auto; /*center image*/
-}
+    font-weight: bold;
+    font-size: 20px;
+    width: 70px;
+    border-radius: 50%;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 auto 15px;
+    }
+    h3{
+        margin-bottom:5px ;
+    }
+    p{
+        margin: 5px 0;
+        font-size: 14px;
+    }
