@@ -1,0 +1,44 @@
+/* General styling */
+body{
+    font-family:Aerial sans-serif;
+}
+/* Block example */
+.block-menu a {
+    display: block;
+    background-color: rgb(32, 157, 246);
+    color: white;
+    padding: 10px;
+    margin: 5px ;
+    text-decoration: none;
+}
+/* inline example */
+.inline-menu a {
+    display:inline;
+    background-color: rgb(37, 225, 59);
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+/* Inline-Block Example */
+.inline-block-menu a{
+    display:inline-block;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+/* Float Example */
+.float-menu a{
+    float: left;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
